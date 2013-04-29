@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9621B791149660F000348AE7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9621B790149660F000348AE7 /* UIKit.framework */; };
+		9621B793149660F000348AE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9621B792149660F000348AE7 /* Foundation.framework */; };
+		9621B795149660F000348AE7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9621B794149660F000348AE7 /* CoreGraphics.framework */; };
+		9621B79B149660F000348AE7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9621B799149660F000348AE7 /* InfoPlist.strings */; };
+		9621B79D149660F000348AE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9621B79C149660F000348AE7 /* main.m */; };
+		9621B7A1149660F000348AE7 /* RCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9621B7A0149660F000348AE7 /* RCAppDelegate.m */; };
+		9621B8E314966B3000348AE7 /* GraphicsServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9621B8E214966B3000348AE7 /* GraphicsServices.framework */; };
+		96A90B4F172EBADD006CE9F8 /* lock-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 96A90B4D172EBADD006CE9F8 /* lock-icon.png */; };
+		96A90B50172EBADD006CE9F8 /* lock-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96A90B4E172EBADD006CE9F8 /* lock-icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9621B78C149660F000348AE7 /* PhoneLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9621B790149660F000348AE7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9621B792149660F000348AE7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9621B794149660F000348AE7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9621B798149660F000348AE7 /* PhoneLock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhoneLock-Info.plist"; sourceTree = "<group>"; };
+		9621B79A149660F000348AE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9621B79C149660F000348AE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9621B79E149660F000348AE7 /* PhoneLock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhoneLock-Prefix.pch"; sourceTree = "<group>"; };
+		9621B79F149660F000348AE7 /* RCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCAppDelegate.h; sourceTree = "<group>"; };
+		9621B7A0149660F000348AE7 /* RCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCAppDelegate.m; sourceTree = "<group>"; };
+		9621B8E214966B3000348AE7 /* GraphicsServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GraphicsServices.framework; path = System/Library/PrivateFrameworks/GraphicsServices.framework; sourceTree = SDKROOT; };
+		96A90B4D172EBADD006CE9F8 /* lock-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lock-icon.png"; sourceTree = "<group>"; };
+		96A90B4E172EBADD006CE9F8 /* lock-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lock-icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9621B789149660F000348AE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9621B791149660F000348AE7 /* UIKit.framework in Frameworks */,
+				9621B793149660F000348AE7 /* Foundation.framework in Frameworks */,
+				9621B795149660F000348AE7 /* CoreGraphics.framework in Frameworks */,
+				9621B8E314966B3000348AE7 /* GraphicsServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9621B781149660EF00348AE7 = {
+			isa = PBXGroup;
+			children = (
+				96A90B4D172EBADD006CE9F8 /* lock-icon.png */,
+				96A90B4E172EBADD006CE9F8 /* lock-icon@2x.png */,
+				9621B796149660F000348AE7 /* PhoneLock */,
+				9621B78F149660F000348AE7 /* Frameworks */,
+				9621B78D149660F000348AE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9621B78D149660F000348AE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9621B78C149660F000348AE7 /* PhoneLock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9621B78F149660F000348AE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9621B8E214966B3000348AE7 /* GraphicsServices.framework */,
+				9621B790149660F000348AE7 /* UIKit.framework */,
+				9621B792149660F000348AE7 /* Foundation.framework */,
+				9621B794149660F000348AE7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9621B796149660F000348AE7 /* PhoneLock */ = {
+			isa = PBXGroup;
+			children = (
+				9621B79F149660F000348AE7 /* RCAppDelegate.h */,
+				9621B7A0149660F000348AE7 /* RCAppDelegate.m */,
+				9621B797149660F000348AE7 /* Supporting Files */,
+			);
+			path = PhoneLock;
+			sourceTree = "<group>";
+		};
+		9621B797149660F000348AE7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9621B798149660F000348AE7 /* PhoneLock-Info.plist */,
+				9621B799149660F000348AE7 /* InfoPlist.strings */,
+				9621B79C149660F000348AE7 /* main.m */,
+				9621B79E149660F000348AE7 /* PhoneLock-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9621B78B149660F000348AE7 /* PhoneLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9621B7A4149660F000348AE7 /* Build configuration list for PBXNativeTarget "PhoneLock" */;
+			buildPhases = (
+				9621B788149660F000348AE7 /* Sources */,
+				9621B789149660F000348AE7 /* Frameworks */,
+				9621B78A149660F000348AE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhoneLock;
+			productName = PhoneLock;
+			productReference = 9621B78C149660F000348AE7 /* PhoneLock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9621B783149660EF00348AE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 9621B786149660EF00348AE7 /* Build configuration list for PBXProject "PhoneLock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9621B781149660EF00348AE7;
+			productRefGroup = 9621B78D149660F000348AE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9621B78B149660F000348AE7 /* PhoneLock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9621B78A149660F000348AE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9621B79B149660F000348AE7 /* InfoPlist.strings in Resources */,
+				96A90B4F172EBADD006CE9F8 /* lock-icon.png in Resources */,
+				96A90B50172EBADD006CE9F8 /* lock-icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9621B788149660F000348AE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9621B79D149660F000348AE7 /* main.m in Sources */,
+				9621B7A1149660F000348AE7 /* RCAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9621B799149660F000348AE7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9621B79A149660F000348AE7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9621B7A2149660F000348AE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9621B7A3149660F000348AE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9621B7A5149660F000348AE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhoneLock/PhoneLock-Prefix.pch";
+				HEADER_SEARCH_PATHS = "peterhajas-SpringBoard-4.x-Headers-20b8b6b/**";
+				INFOPLIST_FILE = "PhoneLock/PhoneLock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9621B7A6149660F000348AE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhoneLock/PhoneLock-Prefix.pch";
+				HEADER_SEARCH_PATHS = "peterhajas-SpringBoard-4.x-Headers-20b8b6b/**";
+				INFOPLIST_FILE = "PhoneLock/PhoneLock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9621B786149660EF00348AE7 /* Build configuration list for PBXProject "PhoneLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9621B7A2149660F000348AE7 /* Debug */,
+				9621B7A3149660F000348AE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9621B7A4149660F000348AE7 /* Build configuration list for PBXNativeTarget "PhoneLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9621B7A5149660F000348AE7 /* Debug */,
+				9621B7A6149660F000348AE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9621B783149660EF00348AE7 /* Project object */;
+}
